@@ -1,0 +1,51 @@
+
+h1{
+    font-family: "Great Vibes",cursive;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 3rem;
+    color: #ff6a23;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button{
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.menu img{
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+}
+
+.menu .info{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .info .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: calc(1.275rem + .3vw);
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid #000;
+    color: #e00a00;
+}
+
+.menu .info .text{
+    padding-top: 20px;
+    word-wrap: break-word;
+}
